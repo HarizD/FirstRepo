@@ -3,3 +3,6 @@
 #$DHCPScope = Get-DhcpServerv4Scope -ScopeId $Scope
 
 $DHCPScopeLease = Get-DhcpServerv4Lease -ScopeId $Scope
+
+#Show DHCP Scope leases
+$DHCPScopeLease
