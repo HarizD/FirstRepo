@@ -11,3 +11,5 @@ $DHCPScopeLease
 $DHCPScopeLease.count
 
 # Another comit
+
+$DHCPScopeLease[0]
