@@ -4,5 +4,8 @@
 
 $DHCPScopeLease = Get-DhcpServerv4Lease -ScopeId $Scope
 
-#Show DHCP Scope leases
+# Show DHCP Scope leases
 $DHCPScopeLease
+
+# Count
+$DHCPScopeLease.count
